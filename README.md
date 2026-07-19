@@ -2,6 +2,12 @@
 DevOps  Task Completion
 GITHUB WEBHOOK TRIGGER ADDED
 
+## DockerHub Repository URL
+
+---
+https://hub.docker.com/repository/docker/anilbamnote/sample-app/general
+---
+
 # DevOps CI/CD Pipeline Assignment
 
 ## Overview
