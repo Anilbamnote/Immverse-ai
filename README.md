@@ -1,6 +1,6 @@
 # Immverse-ai
-DevOps Assignment
- GITHUB WEBHOOK TRIGGER ADDED
+DevOps  Task Completion
+GITHUB WEBHOOK TRIGGER ADDED
 
 # DevOps CI/CD Pipeline Assignment
 
@@ -20,7 +20,7 @@ The pipeline automatically builds, tests, pushes, and deploys a containerized No
 
 ## Project Architecture
 
-Developer
+Developer (push code)
 ↓
 GitHub Repository
 ↓
@@ -30,7 +30,7 @@ Docker Image Build
 ↓
 Docker Hub Push
 ↓
-Kubernetes Deployment
+Docker/Kubernetes Deployment
 
 ---
 
@@ -113,7 +113,7 @@ docker push anilbamnote/sample-app:latest
 
 ### 5. Deploy
 
-Deploy application using Kubernetes manifests.
+Deploy application using Docker/Kubernetes manifests.
 
 ---
 
@@ -203,6 +203,3 @@ Anil Bamnote
 
 DevOps Engineer | AWS | Docker | Kubernetes | Jenkins
 
-=======
-Webhook Trigger Added
- 4c60127b2cd1ce9d1150be33c8793221303d4d4b
