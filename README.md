@@ -2,11 +2,21 @@
 DevOps  Task Completion
 GITHUB WEBHOOK TRIGGER ADDED
 
-## DockerHub Repository URL
+# Sample App
 
----
+This application is containerized using Docker and published to Docker Hub.
+
+# Docker Image
+
+Docker Hub Repository:
 https://hub.docker.com/repository/docker/anilbamnote/sample-app/general
----
+
+Pull the image:
+
+```bash
+docker pull anilbamnote/sample-app:latest
+```
+
 
 # DevOps CI/CD Pipeline Assignment
 
