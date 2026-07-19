@@ -197,6 +197,40 @@ kubectl get svc
 
 ---
 
+## Kubernetes Deployment Environment
+
+For demonstration purposes, the application was deployed on a Kubernetes cluster provided by **Killercoda**.
+
+### Deployment Details
+
+* Platform: Killercoda Kubernetes Playground
+* Deployment Type: Kubernetes Deployment
+* Service Type: NodePort
+* Replicas: 2
+* Container Image: `anilbamnote/sample-app:latest`
+
+### Application Access
+
+The application is exposed using a **NodePort Service**, allowing external access to the application running inside the Kubernetes cluster.
+
+Sample Access URL:
+
+```text
+https://a86571bf61ed-10-244-3-180-30181.spca.r.killercoda.com/
+```
+
+### Verification Commands
+
+```bash
+kubectl get deployments
+kubectl get pods
+kubectl get svc
+kubectl describe svc sample-app-service
+```
+
+This deployment demonstrates container orchestration, service exposure using NodePort, and application accessibility through a Kubernetes-managed environment.
+
+
 ## Author
 
 Anil Bamnote
